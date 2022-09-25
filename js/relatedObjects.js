@@ -13,3 +13,6 @@ let family = marry({
 }, {
     name: 'Ann'
 })
+
+delete family.father;
+delete family.mother.husband;
